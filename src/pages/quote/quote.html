@@ -1,0 +1,18 @@
+
+
+
+
+<ion-content padding>
+
+    <button ion-button clear (click)="onDismiss()">x</button>
+  <ion-card>
+    <ion-card-content>
+      {{quote.text}}
+      <ion-row>
+        <ion-col text-right>
+          <button ion-button small color="danger" (click)="onDismiss(true)">UnFavourite</button>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
